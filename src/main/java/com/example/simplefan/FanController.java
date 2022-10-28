@@ -27,4 +27,11 @@ public class FanController {
         return new ResponseEntity<>("Reverse mode is now "+fan.getReverse(),HttpStatus.OK);
     }
 
+
+    @GetMapping("/reset")
+    public ResponseEntity resetFan(){
+        fan.reset();
+        return new ResponseEntity<>("Fan reset!",HttpStatus.OK);
+    }
+
 }

@@ -39,6 +39,12 @@ public class Fan {
         }
     }
 
+    public void reset(){
+        speed = 0;
+        boolean status = false;
+        boolean reverse = false;
+    }
+
 
     public String toString(){
         return "Fan Settings: Speed=" + getSpeed()+", on?:" + getStatus()+", Reverse-Mode:"+getReverse();
