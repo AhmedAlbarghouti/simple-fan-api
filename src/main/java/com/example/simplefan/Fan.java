@@ -40,9 +40,9 @@ public class Fan {
     }
 
     public void reset(){
-        speed = 0;
-        boolean status = false;
-        boolean reverse = false;
+        this.speed = 0;
+        this.status = false;
+        this.reverse = false;
     }
 
 

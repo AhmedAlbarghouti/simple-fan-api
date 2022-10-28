@@ -18,7 +18,7 @@ public class FanController {
     @GetMapping("/pullSpeedCord")
     public ResponseEntity pullSpeedCord(){
         fan.pullSpeedCord();
-        return new ResponseEntity<>("Speed increased successfully to " +fan.getSpeed(),HttpStatus.OK);
+        return new ResponseEntity<>("Speed is now " +fan.getSpeed(),HttpStatus.OK);
     }
 
     @GetMapping("/pullReverseCord")
