@@ -1,4 +1,4 @@
-#Simple-Fan-API
+# Simple-Fan-API
 
 simple ceiling fan with these characteristics:
 The unit has 2 pull cords:   
@@ -7,16 +7,16 @@ One increases the speed each time it is pulled.  There are 3 speed settings, and
 One reverses the direction of the fan at the current speed setting. Once the direction has been reversed, it remains reversed as we cycle through the speed settings, until reversed again.
 
 
-##Endpoints
+## Endpoints
 
-###Get Info
+### Get Info
 > https://simple-fan-api.herokuapp.com/
 
-###Pull Speed Cord
+### Pull Speed Cord
 > https://simple-fan-api.herokuapp.com/pullReverseCord
 
-###Pull Reverse Cord
+### Pull Reverse Cord
 > https://simple-fan-api.herokuapp.com/pullReverseCord
 
-###Reset
+### Reset
 > https://simple-fan-api.herokuapp.com/reset
