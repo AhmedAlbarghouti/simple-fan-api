@@ -13,7 +13,7 @@ One reverses the direction of the fan at the current speed setting. Once the dir
 > https://simple-fan-api.herokuapp.com/
 
 ### Pull Speed Cord
-> https://simple-fan-api.herokuapp.com/pullReverseCord
+> https://simple-fan-api.herokuapp.com/pullSpeedCord
 
 ### Pull Reverse Cord
 > https://simple-fan-api.herokuapp.com/pullReverseCord
