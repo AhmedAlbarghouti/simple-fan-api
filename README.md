@@ -20,3 +20,8 @@ One reverses the direction of the fan at the current speed setting. Once the dir
 
 ### Reset
 > https://simple-fan-api.herokuapp.com/reset
+
+## Demo
+
+> [Live Site](https://simple-fan.vercel.app/)
+> [Github](https://github.com/AhmedAlbarghouti/simple-fan)
