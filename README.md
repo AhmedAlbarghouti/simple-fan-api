@@ -24,4 +24,5 @@ One reverses the direction of the fan at the current speed setting. Once the dir
 ## Demo
 
 > [Live Site](https://simple-fan.vercel.app/)
+
 > [Github](https://github.com/AhmedAlbarghouti/simple-fan)
