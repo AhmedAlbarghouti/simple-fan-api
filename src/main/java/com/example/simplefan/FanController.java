@@ -4,10 +4,12 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+@CrossOrigin
 @RestController
 public class FanController {
 
     private Fan fan = new Fan();
+
 
     @GetMapping()
     @ResponseBody
